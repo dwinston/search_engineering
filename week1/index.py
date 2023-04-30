@@ -29,8 +29,6 @@ mappings = {
     "type":"type/text()",
     "shortDescription": "shortDescription/text()",
     "startDate": "startDate/text()",
-}
-'''
 "startDate": "startDate/text()",
 "active": "active/text()",
 "regularPrice": "regularPrice/text()",
@@ -82,9 +80,8 @@ mappings = {
 "weight": "weight/text()",
 "shippingWeight": "shippingWeight/text()",
 "width": "width/text()",
-"features": "features/*/text()"  # Note the match all here to get the subfields
-
-'''
+"features": "features/*/text()",  # Note the match all here to get the subfields
+}
 
 def get_opensearch(the_host="localhost"):
     host = the_host
